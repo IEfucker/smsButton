@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SMS button demo</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="../src/smsbutton.css">
+</head>
+
+<body>
+	<h1>demo</h1>
+	<input class="sms-code" type="text" name="smsCode" maxlength="6" placeholder="请输入手机验证码">
+	<input id="testBtn" class="sms-btn" type="button" data-type="mobile" value="免费获取验证码">
+	<p id="log"></p>
+	<script type="text/javascript" src="../node_modules/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../node_modules/mockjs/dist/mock.js"></script>
+	<script src="../src/service/api.js"></script>
+	<script src="../src/service/mockData.js"></script>
+	<script src="../src/service/smsService.js"></script>
+	<script src="../src/jquery.smsbutton.js"></script>
+	<script>
+		$("#testBtn").SMSButton({
+
+		})
+	</script>
+
+</body>
+
+</html>

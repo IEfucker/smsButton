@@ -1,0 +1,1 @@
+var testAPI = "www.test.com/api/thisisatest"

@@ -1,0 +1,21 @@
+.sms-btn{
+    width: 126px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #d6f0fc;
+    border: 1px solid #a5dffb;
+    color: #39a6e0;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+}
+.sms-btn.disabled{
+    color: #bababa;
+    cursor: default;
+    text-decoration: none;
+    background-color: #eee;
+    border-color: #dfdede;
+}
